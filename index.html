@@ -163,7 +163,7 @@
                <div class="projects__data">
                   <h3 class="projects__name">Polyglot Language School</h3>
                   <p class="projects__description">
-                     POLYGLOT & MOTIVE PRO by Mobilograph 
+                     POLYGLOT & MOTIVE PRO by Mobilograph
                      Azamat Erkinov
                   </p>
 
@@ -173,7 +173,8 @@
                      <img src="assets/img/skills-sass.svg" alt="image" class="projects__skill">
                   </div>
 
-                  <a href="https://www.instagram.com/reel/DUBcOgODGTJ/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" target="_blank" class="projects__button">
+                  <a href="https://www.instagram.com/reel/DUBcOgODGTJ/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+                     target="_blank" class="projects__button">
                      <i class="ri-link"></i>
                      <span>Visit Project</span>
                   </a>
@@ -392,9 +393,11 @@
          <h2 class="section__title">CONTACT ME</h2>
 
          <div class="contact__container container grid">
-            <from action="" class="contact__form grid" id="contact-form">
+            <form action="" class="contact__form grid" id="contact-form">
                <div class="contact__group grid">
                   <input type="text" name="user_name" placeholder="Names" required class="contact__input">
+                  <input type="number" name="user_age" placeholder="Age" required class="contact__input">
+                  <input type="tel" name="user_phone" placeholder="Phone Number +" required class="contact__input">
                   <input type="email" name="user_email" placeholder="Email" required class="contact__input">
                </div>
 
@@ -403,7 +406,7 @@
                <button type="submit" class="button contact__button">Send Message</button>
 
                <p class="contact__message" id="contact-message"></p>
-            </from>
+            </form>
          </div>
       </section>
    </main>
@@ -421,6 +424,9 @@
 
    <!--=============== EMAIL JS ===============-->
    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script>
+      emailjs.init('CUVuD8UdNB1epLP7T')
+   </script>
 
 
    <!--=============== MAIN JS ===============-->
