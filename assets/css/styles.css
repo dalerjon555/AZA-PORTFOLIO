@@ -5,13 +5,13 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  /* 
-         Change favorite color:
+  
+         /* Change favorite color:
 
-         Default (Red): hsl(358, 80%, 49%)
+         Default (Red): hsl(358, 80%, 49%) - Gold: hsl(58, 69%, 54%)
          Purple: hsl(265, 80%, 49%) - Blue: hsl(220, 80%, 49%)
          Pink: hsl(330, 80%, 49%) - Green: hsl(162, 70%, 40%)
-         Orange: hsl(14, 80%, 49%)
+         Orange: hsl(14, 80%, 49%) - Salat: hsl(86, 54%, 49%)
 
          For more colors visit: https://htmlcolorcodes.com/
          -> Choose any color 
@@ -905,5 +905,17 @@ img {
     top: 0;
     bottom: 0;
     margin-block: auto;
+  }
+  .nav__list {
+    flex-direction: column;
+    row-gap: 1.25rem;
+  }
+
+  .footer {
+    padding-block: 3rem;
+  }
+
+  .scrollup {
+    right: 4rem;
   }
 }
