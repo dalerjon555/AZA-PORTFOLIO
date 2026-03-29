@@ -271,8 +271,8 @@
 
  .iinfo__description {
    font-size: var(--small-font-size);
-   margin-bottom: 2rem;
-   padding-bottom: 20px;
+   margin-bottom: 20px;
+   padding-bottom: 2rem;
  }
 
  .info .button {
@@ -433,9 +433,9 @@
  .projects__button {
    color: var(--white-color);
    display: inline-flex;
-   align-items: center;
    column-gap: .5rem;
    transition: color .4s;
+   text-align: right;
  }
 
  .projects__button i {
