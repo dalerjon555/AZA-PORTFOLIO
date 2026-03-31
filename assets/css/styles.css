@@ -271,8 +271,8 @@
 
  .iinfo__description {
    font-size: var(--small-font-size);
-   margin-bottom: 20px;
-   padding-bottom: 2rem;
+   margin-bottom: 2rem;
+   padding-bottom: 20px;
  }
 
  .info .button {
